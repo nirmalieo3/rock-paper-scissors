@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="body">
+      <h1 class="heading">Rock, Paper, Scissors</h1>
+        <section class="first">
+           <div class= "left">
+              <h2>player</h2>
+               <p id="playerScore">0</p>
+                <p class="player-selection"><p></p></p>
+            </div>
+            <div class="right">
+                 <h2>computer</h2>
+               <p id="computerScore">0</p>
+                <p class="computer-selection"><p></p></p>
+             </div>
+         </section>
+     <section class="container">
+       
+        <section class="images">
+           <button class="button" id="rock">
+                <img src="img/photo1.png" class="img"><p>Rock</p>
+           </button>
+           <button class="button" id="paper">
+                <img src="img/photo3.png" class="img"><p>paper</p>
+           </button>
+           <button class="button" id="scissors" >
+                 <img src="img/photo2.png" class="img"><p>scissors</p>
+           </button>
+           </section>
+        <section class="winnerboard">
+
+            <div class="choices">
+              <h1 id="announcement"></h1>
+             <h1 id="choices">please make a choice to begin</h1>
+             <h1 id="roundResults"></h1>
+             <button id="reset">Play again</button>
+
+           </div>
+        </section>
+     </section>
+    <script src="script.js"></script>
+  </body>
+</html>
