@@ -48,7 +48,7 @@ body {
 .container {
   max-width: 1300px;
   margin: .5em auto;
-  padding: .5empx;
+  padding: .5em;
 }
 
 .compititors{
@@ -85,13 +85,15 @@ body {
 
 .images{
   float: right;
-  width:92%;
+  width:75%;
   padding-bottom: 2em;
-  margin: .4em 5em;
+  margin: .4em 8em;
+  padding-right: 50px;
 }
 .img{
   width:100%;
   height:11em;
+
 }
 
 img:hover{
@@ -122,13 +124,37 @@ img:hover{
  }
 
  #reset {
-  padding: .5em;
-  font-size: 1em;
-  margin-top: .5em;
+  padding: .4em;
+  font-size: .8em;
+  margin-top: 1em;
   transition: 100;
   cursor: pointer;
  }
  #reset:hover{
   background: orange;
   box-shadow: .3em .3em .3em grey;
+ }
+
+ @media only screen and (max-device-width: 480px) {
+
+   .button {
+    float:left;
+    display: block;
+    margin-left: 11em;
+   }
+   .compititors{
+    width: 100%;
+   }
+   .left {
+    margin-left: 4em;
+   }
+ }
+
+ @media only screen and (max-device-width: 780px) and (min-device-width: 480px) {
+  .button {
+    padding-left: 5em;
+      }
+    .img {
+      height: 8em;
+    }
  }
