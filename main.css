@@ -139,8 +139,15 @@ img:hover{
 
    .button {
     float:left;
-    display: block;
-    margin-left: 11em;
+    display: inline-block;
+    width: 20%;
+    /*margin-left: 6em;*/
+    margin-left: 12em;
+     
+   }
+   .img {
+    height: 2em;
+    
    }
    .compititors{
     width: 100%;
